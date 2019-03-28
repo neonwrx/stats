@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.table {
+  font-size: 14px;
+  text-align: center;
+}
+.table thead th {
+  position: relative;
+  vertical-align: middle;
+}
+.table thead th:first-child {
+  min-width: 105px;
+}
+.is--asc:before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  content: "▲";
+}
+.is--desc:before {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  content: "▼";
+}
+
+.pagination {
+  justify-content: flex-end;
+}
+
+.pagination-table {
+  text-align: center;
+}
+
+td.plus {
+  text-align: center;
+  cursor: pointer;
+}
+
+.Login {
+  text-align: left;
+  padding: 1em;
+  margin: 1em;
+  border: 2px solid #d3d3d3;
+  border-radius: .5em;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  width: 95%;
+  margin-top: 100px;
+}
+
+.Login .form {
+  padding: 1em;
+}
+
+.Login label {
+  display: flex;
+  font-weight: 600;
+}
+
+.Login button {
+  justify-content: flex-end;
+}
+
+.payments-link {
+  border: 1px solid rgba(255, 255, 255, 0.5);;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: .4rem!important;
+  margin-top: .5rem;
+  max-width: 240px;
+}
+
+.payments-link:hover {
+  background-color: #f2f2f2;
+  color: #000!important;
+}
+
+.navbar-dark .navbar-nav .nav-link.partners-payments-link {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: #fff;
+}
+
+.react-daterange-picker {
+  margin-bottom: .5rem;
+  margin-right: .5rem;
+}
+
+.accept-btn {
+  margin-bottom: .5rem;
+}
+
+.react-daterange-picker__wrapper {
+  padding: .3rem;
+  border-radius: .25rem;
+}
+
+@media (min-width: 768px) {
+  .payments-link {
+    margin-top: 0;
+  }
+  .react-daterange-picker {
+    margin-bottom: 0;
+  }
+  .accept-btn {
+    margin-bottom: 0;
+  }
+}
+
+.payment_input {
+  width: 100%;
+  max-width: 300px;
+}
+
+.home-top-block > div {
+  margin-bottom: 1rem;
+}
+
+.error {
+  color: #c00;
+}
+
+.closePartner:hover {
+  transition: .5s all;
+  background-color: #c00!important;
+}

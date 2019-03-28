@@ -1,0 +1,9 @@
+export const FETCH_DATA = 'FETCH_DATA';
+export const FETCH_DATA_SUCCESS = 'FETCH_DATA_SUCCESS';
+export const FETCH_DATA_ERROR = 'FETCH_DATA_ERROR';
+export const FETCH_ACCOUNT_BALANCE = 'FETCH_ACCOUNT_BALANCE';
+export const FETCH_PAYMENTS = 'FETCH_PAYMENTS';
+export const NEW_PAYMENT = 'NEW_PAYMENT';
+export const SIGN_IN = 'SIGN_IN';
+export const SIGN_UP = 'SIGN_UP';
+export const AUTH_FAILED = 'AUTH_FAILED';

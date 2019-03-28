@@ -1,0 +1,27 @@
+{
+  "name": "server-stats",
+  "version": "1.0.0",
+  "description": "Express server with MongoDB",
+  "author": "AKAR",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server",
+    "client-install": "npm install --prefix client",
+    "dev": "concurrently \"npm run start\" \"npm run client\"",
+    "client": "npm start --prefix client",
+    "heroku-postbuild": "cd client && yarn install --production && yarn build"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.4",
+    "concurrently": "^4.1.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.18",
+    "nodemon": "^1.18.10"
+  }
+}
